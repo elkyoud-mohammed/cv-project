@@ -1,0 +1,86 @@
+body{
+    font-family:'century Gothic',Calibri,serif ;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+}
+header{
+    height: 100px;
+}
+footer{
+    height:80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: darkgray;
+    border-top:2px solid #AAA;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    background-color: beige;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: cadetblue;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+.table{
+    display: table;
+    margin: 0 auto;
+}
+.ind:hover{
+    border-top: 5px SOLID #4c8;
+    background-color:RGBa(64, 200, 130, 0.15);
+}
+.exp:hover{
+    border-top: 5px SOLID rgb(168, 194, 81);
+    background-color:RGBa(241, 211, 79, 0.15);
+}
+.hob:hover{
+    border-top: 5px SOLID rgb(157, 107, 167);
+    background-color:RGBa(000, 112, 192, 0.15);
+}
+.con:hover{
+    border-top: 5px SOLID rgb(165, 175, 108);
+    background-color:RGBa(288, 77, 38, 0.15);
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.LD{
+    padding: 15px 30px 20px 30px;
+}
+.profile{
+    font-size:40px ;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 40px;
+}
+#IMG{
+    margin: 20px;
+    padding-bottom:10px ;
+}
+.ACCUEL{
+    border-top: 5px SOLID #4c8;
+    background-color:RGBa(64, 200, 130, 0.15);
+}
+.experiences{
+    border-top: 5px SOLID rgb(168, 194, 81);
+    background-color:RGBa(241, 211, 79, 0.15);
+}
